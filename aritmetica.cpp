@@ -27,5 +27,14 @@ int main() {
   b /= 2;
   std::cout << b << std::endl;
 
+  int c = 8;
+
+  int d = c++;
+  std::cout << c << std::endl;
+
+  int e = ++c;
+  std::cout << c << std::endl;
+
+
   return 0;
 }
